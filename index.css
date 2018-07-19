@@ -1,0 +1,62 @@
+*	{
+    border:	2px	solid	cornflowerblue;
+    margin:	5px;
+    padding:	3px;
+    font-size: 105%;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none; 
+
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 250%;
+    padding-right: 50%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+container {
+    display: flex;
+    height: 500px;
+    padding: 10px;
+}
+
+.main-article {
+    flex-grow: 3;
+}
+
+.sidebar {
+    flex-grow: 1;
+}
+
+.title-nav {
+    border: none;
+}
+
+a {
+    padding-right: 15px;
+}
